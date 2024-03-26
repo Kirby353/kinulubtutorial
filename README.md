@@ -17,8 +17,21 @@
 
 
 ## ArdinoIDEのDownload
+すでにダウンロードされていたのでそのままArdinoIDEを使用
+Ver:1.8.19
+
+ArdionoIDEが入っていない場合
+https://www.arduino.cc/en/software
+
 ## マイコンの型番の確認
+今回使用したマイコンはArdino互換機のArdion
 ## データシートの取得
+データシートは以下を使用した
+https://spiceman.jp/arduino-nano/
+
+Arduino言語チュートリアル
+http://www.musashinodenpa.com/arduino/ref/
+
 ## LEDの+-確認
 ## マイコンのADCの電圧確認
 ## マイコンの出力電圧の確認
