@@ -40,3 +40,5 @@ https://spiceman.jp/arduino-nano/
 ## マイコンのADCの電圧確認
 ## マイコンの出力電圧の確認
 ## 回路の作成
+
+baurateがあっていないと文字化けをする
