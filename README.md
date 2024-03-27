@@ -20,8 +20,11 @@
 PCすでにダウンロードされていたのでそのままArdinoIDEを使用
 Ver:1.8.19
 
+マイコンのボードマネージャがそのままコピペctrl+Vすると消えちゃうので注意すること
 ArdionoIDEが入っていない場合
 https://www.arduino.cc/en/software
+
+baurateがあっていないと文字化けをする
 
 Arduino言語チュートリアル
 http://www.musashinodenpa.com/arduino/ref/
@@ -39,6 +42,11 @@ https://spiceman.jp/arduino-nano/
 ## LEDの+-確認
 ## マイコンのADCの電圧確認
 ## マイコンの出力電圧の確認
+
+
 ## 回路の作成
 
-baurateがあっていないと文字化けをする
+
+# MATLAB
+MATLAB 7.5.0(R2007b)をYKスペースからダウンロードした
+名前所属とIDを記入しダウンロード　エディターが横に存在しないので新規作成をしてエディタを中に入れ込む
