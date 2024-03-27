@@ -50,6 +50,8 @@ https://spiceman.jp/arduino-nano/
 # MATLAB
 MATLAB 7.5.0(R2007b)をYKスペースからダウンロードした
 名前所属とIDを記入しダウンロード　エディターが横に存在しないので新規作成をしてエディタを中に入れ込む
+help
+https://jp.mathworks.com/help/matlab/
 
 ## 正弦波の作成
 まず、正弦波を作ってみる
@@ -62,7 +64,7 @@ y軸[m]
 横軸X、Y
 正弦波
 ウィンドウサイズを変える
-８００px＊４００Px
+800px＊400Px
 
 
 #振り子のODE
