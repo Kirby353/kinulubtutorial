@@ -1,40 +1,27 @@
 clear,clc,clf,close all
 
-%正弦波のグラフ出力
-
-%時間の作成%
-%t = (0:0.01:10);
-
-%正弦波の式
-%y = Asin(wt)
-%y = sin(1*pi*1*t);
-%y = sin(t);
+%変数定義
+count = 0;
 w=pi;
 
-x = 1;
-count = 0;
-
 for t = 0:0.01:5
- y = sin(w*t);
- count=count+1;
- %x_position(count)=t;
- x_position(count)=x;
- y_position(count)=y;
-  comet(x_position,y_position)
-
- 
+    y = sin(w*t);
+    count=count+1;
+    Time(count)=t; %ループを時間速度にする
+    y_position(count)=y;
 end
-
-
 
 %Windowサイズの指定
 figure('Position',[570 400 800 400]);
-%plot(x,y_position);
+point = plot(0,0,'o','MarkerSize',7,'MarkerEdgeColor','b');
 
-
-
- 
-
+%アニメーションループ
+for n = 1:length(y_position)
+    set(point,'YData',y_position(n));
+    drawnow;
+    xlim([-2,2]);
+    ylim([-2,2]);
+end
 %ラベルの作成%
 xlabel('x[m]') 
 ylabel('y[m]')
